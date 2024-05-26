@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "{{cookiecutter-directory-name}}"
+name = "{{cookiecutter.directory_name}}"
 version = "0.1.0"
 description = "This a tempalte"
 authors = ["Your Name <you@example.com>"]
