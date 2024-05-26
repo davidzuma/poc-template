@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "{{cookiecutter-directory-name}}"
+version = "0.1.0"
+description = "This a tempalte"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "{{cookiecutter"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.35.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
