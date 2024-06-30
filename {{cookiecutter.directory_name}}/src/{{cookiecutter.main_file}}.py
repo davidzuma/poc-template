@@ -1,6 +1,5 @@
 import streamlit as st
 
-
 st.set_page_config(page_title="{{cookiecutter.project_name}}", page_icon=":material/airline_seat_flat_angled:")
 
 page_1= st.Page("pages/page_1.py", title="Page 1", icon=":material/add_circle:")
